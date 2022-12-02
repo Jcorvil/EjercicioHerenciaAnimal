@@ -7,7 +7,10 @@ public class Perro extends Animal {
         this.raza = raza;
     }
 
-    public Perro(String raza, String nombre){this.raza = raza; this.nombre = nombre;}
+    public Perro(String raza, String nombre){
+        this.raza = raza;
+        this.nombre = nombre;
+    }
 
     void imprime () {
         System.out.println("¡Guau! me llamo " + nombre);

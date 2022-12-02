@@ -1,11 +1,11 @@
 public class Animal {
     String nombre;
     Animal () {}
-
     Animal (String nombre) {
         this.nombre = nombre;
     }
     void imprime () {
+        if(nombre != null)
         System.out.print("¡Guau! Me llamo " + nombre);
     }
 
